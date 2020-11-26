@@ -1,0 +1,31 @@
+body{
+	background-color: #fffaf0;
+}
+
+.grid{
+	background: #f4ecdf;
+	border-radius: 25px;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 616px;
+	height: 616px;
+	margin: auto;
+}
+
+img{
+	border-radius: 10px;
+	margin: 2px;
+	width: 150px;
+}
+
+img:hover{
+	box-shadow: 0 0 10px #aaa;
+}
+
+img.found{
+	box-shadow: 0 0 10px #6B8E23;
+	opacity: 0.5;
+}
+
+
